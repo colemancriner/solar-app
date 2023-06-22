@@ -35,9 +35,9 @@ def fetch_data(account_id, username, password, start_date, end_date):
 #-----------SIDEBAR----------------
 # input fields for SRP Energy API credentials
 st.sidebar.subheader('SRP Energy API Credentials')
-account_id = st.sidebar.text_input('Account ID',value=creds.ACCOUNT_ID, key='account_id')
-username = st.sidebar.text_input('Username',value=creds.USERNAME, key='username')
-password = st.sidebar.text_input('Password', type='password', value=creds.PASSWORD, key='password')
+account_id = st.sidebar.text_input('Account ID', key='account_id')
+username = st.sidebar.text_input('Username', key='username')
+password = st.sidebar.text_input('Password', type='password', key='password')
 #-----------SIDEBAR: END-----------
 
 #---------Instructions for user---------------
