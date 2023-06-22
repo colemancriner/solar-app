@@ -8,7 +8,6 @@ from srpenergy.client import SrpEnergyClient
 import plotly.express as px
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
-import creds
 
 # Set page configuration
 st.set_page_config(page_title='Real-Time Solar', page_icon=':dim_button:', layout='wide')
